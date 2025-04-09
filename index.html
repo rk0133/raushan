@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>3D Portfolio | Welcome</title>
+  <link rel="stylesheet" href="styles.css">
+  Add a <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script> before this file
+</head>
+<body>
+  <div class="cursor-follower"></div>
+
+  <header>
+    <div class="container">
+      <nav>
+        <div class="nav-items">
+          <button class="nav-btn">Home</button>
+          <button class="nav-btn">About</button>
+          <button class="nav-btn">Skills</button>
+          <button class="nav-btn">Projects</button>
+          <button class="nav-btn">Contact</button>
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="background-shapes">
+      <div class="shape"></div>
+      <div class="shape"></div>
+      <div class="shape"></div>
+    </div>
+    <div class="hero-content">
+      <h1>MY NAME IS RAUSHAN KUMAR</h1>
+      <p>Web Developer & Designer | Creating Immersive Digital Experiences</p>
+      <button class="cta-btn">Explore My Work</button>
+    </div>
+  </section>
+
+  <section id="about" class="section">
+    <div class="container">
+      <h2 class="section-title">About Me</h2>
+      <div class="about-content">
+        <div class="about-img">
+          <img src="h.jpg" alt="Profile Image">
+        </div>
+        <div class="about-text">
+          <p>Hello! I'm a passionate web developer specializing in creating immersive 3D experiences on the web. With a strong foundation in front-end development and a keen eye for design, I build websites that stand out and leave a lasting impression.</p>
+          <p>My journey in web development began 5 years ago, and since then, I've been constantly learning and evolving with the rapidly changing digital landscape. I love working with the latest technologies and pushing the boundaries of what's possible on the web.</p>
+          <p>When I'm not coding, you can find me exploring new design trends, working on personal projects, or enjoying outdoor activities to recharge my creative energy.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="section">
+    <div class="container">
+      <h2 class="section-title">My Skills</h2>
+      <div class="skills-container">
+        <div class="skill-card">
+          <div class="skill-icon">H</div>
+          <h3 class="skill-title">HTML5</h3>
+          <div class="skill-level">
+            <div class="skill-progress" style="width: 95%;"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">C</div>
+          <h3 class="skill-title">CSS3</h3>
+          <div class="skill-level">
+            <div class="skill-progress" style="width: 90%;"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">J</div>
+          <h3 class="skill-title">JavaScript</h3>
+          <div class="skill-level">
+            <div class="skill-progress" style="width: 85%;"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">R</div>
+          <h3 class="skill-title">React.js</h3>
+          <div class="skill-level">
+            <div class="skill-progress" style="width: 80%;"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">T</div>
+          <h3 class="skill-title">Three.js</h3>
+          <div class="skill-level">
+            <div class="skill-progress" style="width: 75%;"></div>
+          </div>
+        </div>
+        <div class="skill-card">
+          <div class="skill-icon">W</div>
+          <h3 class="skill-title">WebGL</h3>
+          <div class="skill-level">
+            <div class="skill-progress" style="width: 70%;"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="projects" class="section">
+    <div class="container">
+      <h2 class="section-title">My Projects</h2>
+      <div class="projects-grid">
+        <div class="project-card">
+          <div class="project-img">
+            <img src="h.png" alt="Project 1">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">3D Product Showcase</h3>
+            <p class="project-desc">An interactive 3D product viewer with customization options and realistic lighting.</p>
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="project2.jpg" alt="Project 2">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Immersive Portfolio</h3>
+            <p class="project-desc">A 3D interactive portfolio website with unique navigation and visual effects.</p>
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </div>
+        <div class="project-card">
+          <div class="project-img">
+            <img src="project3.jpg" alt="Project 3">
+          </div>
+          <div class="project-content">
+            <h3 class="project-title">Virtual Gallery</h3>
+            <p class="project-desc">A WebGL-powered virtual art gallery with realistic lighting and interactive elements.</p>
+            <a href="#" class="project-link">View Project</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="section">
+    <div class="container">
+      <h2 class="section-title">Contact Me</h2>
+      <div class="contact-form">
+        <div class="form-group">
+          <label class="form-label" for="name">Name</label>
+          <input type="text" id="name" class="form-input" placeholder="Your Name">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="email">Email</label>
+          <input type="email" id="email" class="form-input" placeholder="Your Email">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="subject">Subject</label>
+          <input type="text" id="subject" class="form-input" placeholder="Subject">
+        </div>
+        <div class="form-group">
+          <label class="form-label" for="message">Message</label>
+          <textarea id="message" class="form-textarea" placeholder="Your Message"></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send Message</button>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="social-links">
+        <a href="#" class="social-link">F</a>
+        <a href="#" class="social-link">T</a>
+        <a href="#" class="social-link">L</a>
+        <a href="#" class="social-link">G</a>
+      </div>
+      <p class="copyright">© 2025 RAUSHAN KUMAR. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
